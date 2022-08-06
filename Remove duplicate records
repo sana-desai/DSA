@@ -1,0 +1,9 @@
+def removef():
+    print(a)
+    a1=[]
+    for i in range(len(a)):
+        if a[i] not in a1:
+            a1.append(a[i])
+    return a1
+a=[1,2,5,1,6,4,8,2]
+print("REsult",removef())z
